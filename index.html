@@ -1,17 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MoneyCat Reports</title>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="theme-color" content="#05060a">
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MoneyCat Reports</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="theme-color" content="#05060a">
 <style>
-body{background:radial-gradient(circle at 18% 16%,rgba(110,168,255,.08),transparent 32%),radial-gradient(circle at 82% 20%,rgba(143,123,255,.06),transparent 34%),#05060a;color:#e9edf7;font-family:Inter,Arial,"Noto Sans SC",sans-serif;padding:40px}
-.container{max-width:860px;margin:auto}.header{display:flex;align-items:center;gap:14px;margin-bottom:24px}.logo{width:64px;height:64px;display:grid;place-items:center;border-radius:17px;background:linear-gradient(145deg,#11161a,#050607);border:1px solid rgba(110,168,255,.18);box-shadow:0 0 26px rgba(110,168,255,.10), inset 0 0 18px rgba(255,255,255,.035)}.logo svg{width:48px;height:48px;display:block;filter:drop-shadow(0 0 10px rgba(110,168,255,.16))}.cat-logo{animation:moneycatBreath 3.8s ease-in-out infinite}@keyframes moneycatBreath{0%,100%{transform:scale(1)}50%{transform:scale(1.045)}}h1{font-size:30px;margin:0 0 8px}.subtitle{font-size:14px;color:#7e8498;margin-bottom:24px}.card{display:block;padding:18px 20px;border:1px solid rgba(255,255,255,.075);border-radius:14px;margin-bottom:12px;text-decoration:none;color:#e9edf7;background:rgba(255,255,255,.025);transition:.2s}.card:hover{border-color:rgba(110,168,255,.22);box-shadow:0 18px 50px rgba(110,168,255,.08);transform:translateY(-2px)}.date{font-size:18px;font-weight:800}.desc{font-size:13px;color:#8b9aa3;margin-top:6px}.badge{display:inline-block;margin-top:10px;padding:4px 9px;border-radius:999px;font-size:11px;color:#aeb6cb;border:1px solid rgba(125,150,255,.18);background:rgba(255,255,255,.035)}
-</style></head>
-<body><div class="container">
-<div class="header"><div class="logo cat-logo"><svg viewBox="0 0 120 120" width="48" height="48" aria-label="MoneyCat logo">
+body{background:radial-gradient(circle at 18% 16%,rgba(110,168,255,.08),transparent 32%),radial-gradient(circle at 82% 20%,rgba(143,123,255,.06),transparent 34%),#05060a;color:#e9edf7;font-family:Inter,Arial,"Noto Sans SC",sans-serif;padding:40px}.container{max-width:860px;margin:auto}.header{display:flex;align-items:center;gap:14px;margin-bottom:24px}.logo{width:64px;height:64px;display:grid;place-items:center;border-radius:17px;background:linear-gradient(145deg,#11161a,#050607);border:1px solid rgba(110,168,255,.18);box-shadow:0 0 26px rgba(110,168,255,.10), inset 0 0 18px rgba(255,255,255,.035)}.logo svg{width:48px;height:48px;display:block}.cat-logo{animation:moneycatBreath 3.8s ease-in-out infinite}@keyframes moneycatBreath{0%,100%{transform:scale(1)}50%{transform:scale(1.045)}}h1{font-size:30px;margin:0 0 8px}.subtitle{font-size:14px;color:#7e8498;margin-bottom:24px}.card{display:block;padding:18px 20px;border:1px solid rgba(255,255,255,.075);border-radius:14px;margin-bottom:12px;text-decoration:none;color:#e9edf7;background:rgba(255,255,255,.025);transition:.2s}.card:hover{border-color:rgba(110,168,255,.22);box-shadow:0 18px 50px rgba(110,168,255,.08);transform:translateY(-2px)}.date{font-size:18px;font-weight:800}.desc{font-size:13px;color:#8b9aa3;margin-top:6px}.badge{display:inline-block;margin-top:10px;padding:4px 9px;border-radius:999px;font-size:11px;color:#aeb6cb;border:1px solid rgba(125,150,255,.18);background:rgba(255,255,255,.035)}
+</style></head><body><div class="container"><div class="header"><div class="logo cat-logo"><svg viewBox="0 0 120 120" width="34" height="34">
   <path d="M27 51 C23 28 35 14 47 35 C55 31 65 31 73 35 C85 14 97 28 93 51 C102 61 102 82 91 94 C78 108 42 108 29 94 C18 82 18 61 27 51Z" fill="#050607"/>
   <path d="M43 62 C47 66 53 68 60 68 C67 68 73 66 77 62" fill="none" stroke="#e9edf7" stroke-width="5" stroke-linecap="round"/>
   <path d="M43 49 C48 52 53 52 57 49" fill="none" stroke="#e9edf7" stroke-width="5" stroke-linecap="round"/>
@@ -19,12 +10,10 @@ body{background:radial-gradient(circle at 18% 16%,rgba(110,168,255,.08),transpar
   <path d="M58 56 C60 54 62 54 64 56 C63 59 57 59 58 56Z" fill="#e9edf7"/>
   <path d="M60 58 C60 62 57 64 54 64" fill="none" stroke="#e9edf7" stroke-width="3" stroke-linecap="round"/>
   <path d="M60 58 C60 62 63 64 66 64" fill="none" stroke="#e9edf7" stroke-width="3" stroke-linecap="round"/>
-  <path d="M34 56 L18 49 M34 62 L16 62 M34 68 L18 75" stroke="#e9edf7" stroke-width="3" stroke-linecap="round"/>
-  <path d="M86 56 L102 49 M86 62 L104 62 M86 68 L102 75" stroke="#e9edf7" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="60" cy="82" r="5" fill="#e9edf7"/>
-  <path d="M60 86 V101" stroke="#e9edf7" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="82" r="5" fill="#e9edf7"/><path d="M60 86 V101" stroke="#e9edf7" stroke-width="4" stroke-linecap="round"/>
 </svg></div><div><h1>MoneyCat Reports</h1><div class="subtitle">Final Neo Dark Low Saturation ｜ Report Library</div></div></div>
-<a class="card" href="reports/2026-05-03-trading-report.html"><div class="date">2026-05-03 Trading Analysis Report</div><div class="desc">Penny Stock / ABUS / ASTC / PACB / CELZ / SIDU</div><span class="badge">Latest</span></a>
+<a class="card" href="reports/2026-05-06-trading-report.html"><div class="date">2026-05-06 Trading Analysis Report</div><div class="desc">Trending Bull / Overheated BB / TLT Short / Policy Alert</div><span class="badge">Latest</span></a>
+<a class="card" href="reports/2026-05-03-trading-report.html"><div class="date">2026-05-03 Trading Analysis Report</div><div class="desc">Penny Stock / ABUS / ASTC / PACB / CELZ / SIDU</div><span class="badge">Trading</span></a>
 <a class="card" href="reports/2026-05-02-close-review.html"><div class="date">2026-05-02 Close Review</div><div class="desc">Full UI Neo Dark / EN Fixed / Optional Sim Motion</div><span class="badge">Close Review</span></a>
 <a class="card" href="reports/2026-04-30-intraday-report.html"><div class="date">2026-04-30 Intraday Market Report</div><div class="desc">SPX / LLY / META / AAPL Earnings Risk / Penny Watch</div><span class="badge">Intraday</span></a>
 <a class="card" href="reports/2026-04-29-fomc-day-review.html"><div class="date">2026-04-29 FOMC Day Review</div><div class="desc">FOMC / SPX / Gamma Pin / GDP-PCE Watch</div><span class="badge">FOMC</span></a>
